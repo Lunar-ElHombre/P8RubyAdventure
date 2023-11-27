@@ -13,6 +13,8 @@ public class HealthCollectable : MonoBehaviour
             {
                 controller.ChangeHealth(1);
                 Destroy(gameObject);
+
+              
             }            
         }
     }
